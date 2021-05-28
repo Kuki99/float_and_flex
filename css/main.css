@@ -1,0 +1,180 @@
+/*css reset*/
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center,
+				dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend,
+				table, caption, tbody, tfoot, thead, tr, th, td,
+				article, aside, canvas, details, embed, 
+				figure, figcaption, footer, header, hgroup, 
+				menu, nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+				/* HTML5 display-role reset for older browsers */
+				article, aside, details, figcaption, figure, 
+				footer, header, hgroup, menu, nav, section {
+					display: block;
+				}
+				body {
+					line-height: 1;
+				}
+				ol, ul {
+					list-style: none;
+				}
+				blockquote, q {
+					quotes: none;
+				}
+				blockquote:before, blockquote:after,
+				q:before, q:after {
+					content: '';
+					content: none;
+				}
+				table {
+					border-collapse: collapse;
+					border-spacing: 0;
+				}	
+/*######	*/
+	div{
+		outline: 2px solid red;
+	}	
+	.container{
+        width:600px;
+        height: 800px;
+        margin: 10px 10px;
+	}
+	#one,
+	#two,
+	#three,
+	#four{
+		height: 200px;
+	}
+/*one section	*/
+	#one.flex{
+        display: flex;
+	}
+	#one div{
+		width: 200px;
+		height: 200px;
+	}	
+	#one.float div{
+		float: left;
+	}
+/*two section	*/
+    #two.flex{
+        display: flex;
+	}
+	#t_one{
+		height: 200px;
+	}
+	#t_one.float {
+		float: left;
+	}
+	#t_one div{
+		width:400px;
+		height:100px;
+	}
+	
+	#t_two{
+		width: 200px;
+		height: 200px;
+	}
+	#t_two.float{
+		float: left;
+	}
+	#t_two div{
+		height: 66.6666667px;
+	}
+/*three section*/
+    #three.flex{
+    	display: flex; 
+    }
+	#th_one{
+		width: 200px;
+		height: 200px;
+	}
+	#th_one.float{
+		float: left;
+	}
+	#th_two{
+		height: 200px;
+	}
+	#th_two.float{
+		float: left;
+	}
+	#th_t_one,
+	#th_t_two{
+		height:100px;
+	}
+	#th_t_one.flex,
+	#th_t_two.flex{
+	    display: flex;	
+	}
+	#th_t_two div{
+		width: 200px;
+		height: 100px;
+	}
+	#th_t_two.float div{
+		float: left;
+
+	}
+/*four section*/	
+	#four.flex{
+		display: flex; 
+	}
+	#f_one{
+		width: 400px;
+		height: 200px;
+	}
+	#f_one.float{
+		float: left;
+	}
+	#f_two{
+		width: 200px;
+		height: 200px;
+	}
+	#f_two.float{
+		float: left;
+	}
+	#f_one_one,
+	#f_one_two{
+		height:100px;
+	}
+	#f_one_one.flex,
+	#f_one_two.flex{
+	    display: flex;	
+	}
+	#f_one_two_one,
+	#f_one_two_two{
+		width:200px;
+		height:100px;
+	}
+	#f_one_two_one.float,
+	#f_one_two_two.float{
+		float: left;
+	}
+	#f_one_two_one_one,
+	#f_one_two_one_two{
+		height:50px;
+	}
+	#f_one_two_one_one.flex,
+	#f_one_two_one_two.flex{
+		display: flex;
+	}
+	#f_one_two_one_two div{
+		width:100px;
+		height:50px;
+	}
+	#f_one_two_one_two.float div{
+	    float: left;
+	}
+	
+	
